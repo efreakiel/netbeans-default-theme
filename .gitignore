@@ -1,0 +1,23 @@
+# Ignore VSIX files
+*.vsix
+
+# Ignore node_modules (if you use npm for development)
+node_modules/
+
+# Ignore other common build artifacts
+dist/
+build/
+out/
+
+# Ignore IDE-specific files
+*.log
+*.bak
+*.swp
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore local configuration files
+settings.json
+.vscode/

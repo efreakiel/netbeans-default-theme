@@ -1,0 +1,23 @@
+{
+  "name": "netbeans-default-theme",
+  "displayName": "NetBeans Default Theme",
+  "description": "A Cursor IDE theme matching the default NetBeans look",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": ["Themes"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efreakiel/netbeans-default-theme.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "NetBeans Default",
+        "uiTheme": "vs",
+        "path": "./themes/netbeans-default-color-theme.json"
+      }
+    ]
+  }
+}

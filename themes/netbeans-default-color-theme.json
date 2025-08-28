@@ -1,0 +1,173 @@
+{
+  "name": "NetBeans Default",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "editor.selectionBackground": "#ADD6FF",
+    "editor.lineHighlightBackground": "#F0F0F0",
+    "editorCursor.foreground": "#000000",
+    "editorWhitespace.foreground": "#BFBFBF",
+    "editor.selectionHighlightBackground": "#E6E6E6",
+    "sideBar.background": "#F3F3F3",
+    "sideBar.foreground": "#000000",
+    "statusBar.background": "#007ACC",
+    "statusBar.foreground": "#FFFFFF",
+    "activityBar.background": "#007ACC",
+    "activityBar.foreground": "#FFFFFF",
+    "tab.activeBackground": "#FFFFFF",
+    "tab.inactiveBackground": "#F3F3F3",
+    "panel.background": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "name": "Default",
+      "scope": [
+        "source",
+        "text"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "comment.block"
+      ],
+      "settings": {
+        "foreground": "#008000",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Javadoc Comment",
+      "scope": [
+        "comment.block.documentation"
+      ],
+      "settings": {
+        "foreground": "#3F5FBF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#7F0055",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": [
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string",
+        "string.quoted"
+      ],
+      "settings": {
+        "foreground": "#0000FF"
+      }
+    },
+    {
+      "name": "Attribute",
+      "scope": [
+        "entity.other.attribute-name",
+        "meta.attribute"
+      ],
+      "settings": {
+        "foreground": "#FF8000"
+      }
+    },
+    {
+      "name": "Attribute Value",
+      "scope": [
+        "string.quoted.attribute"
+      ],
+      "settings": {
+        "foreground": "#0000FF"
+      }
+    },
+    {
+      "name": "PHP Variable",
+      "scope": [
+        "variable.other.php"
+      ],
+      "settings": {
+        "foreground": "#9e844a"
+      }
+    },
+    {
+      "name": "PHP Expression",
+      "scope": [
+        "meta.embedded.expression"
+      ],
+      "settings": {
+        "foreground": "#FFA500"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": [
+        "constant.language",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Function Call",
+      "scope": [
+        "meta.function-call",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Class/Method",
+      "scope": [
+        "entity.name.type.class",
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#800080"
+      }
+    },
+    {
+      "name": "Annotation",
+      "scope": [
+        "meta.annotation",
+        "punctuation.definition.annotation"
+      ],
+      "settings": {
+        "foreground": "#646464",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}
